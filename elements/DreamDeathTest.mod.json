@@ -2,10 +2,10 @@
   "_fv": 28,
   "_type": "command",
   "definition": {
-    "commandName": "killdreamers",
+    "commandName": "dreamdeathtest",
     "permissionLevel": "1",
     "onCommandExecuted": {
-      "name": "Test1True"
+      "name": "DreamDeathTestCommandExecuted"
     }
   }
 }

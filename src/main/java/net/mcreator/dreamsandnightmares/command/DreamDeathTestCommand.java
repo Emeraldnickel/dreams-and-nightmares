@@ -13,7 +13,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.commands.Commands;
 import net.minecraft.commands.CommandSourceStack;
 
-import net.mcreator.dreamsandnightmares.procedures.Test1TrueProcedure;
+import net.mcreator.dreamsandnightmares.procedures.DreamDeathTestCommandExecutedProcedure;
 
 import java.util.HashMap;
 import java.util.Arrays;
@@ -22,13 +22,13 @@ import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.arguments.StringArgumentType;
 
 @Mod.EventBusSubscriber
-public class KillDreamersCommand {
+public class DreamDeathTestCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
 		event.getDispatcher()
-				.register(Commands.literal("killdreamers").requires(s -> s.hasPermission(1))
-						.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(KillDreamersCommand::execute))
-						.executes(KillDreamersCommand::execute));
+				.register(Commands.literal("dreamdeathtest").requires(s -> s.hasPermission(1))
+						.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(DreamDeathTestCommand::execute))
+						.executes(DreamDeathTestCommand::execute));
 	}
 
 	private static int execute(CommandContext<CommandSourceStack> ctx) {
@@ -47,7 +47,7 @@ public class KillDreamersCommand {
 			index[0]++;
 		});
 
-		Test1TrueProcedure.execute(world);
+		DreamDeathTestCommandExecutedProcedure.execute(entity);
 		return 0;
 	}
 }

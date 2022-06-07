@@ -951,6 +951,30 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "DreamDeathTestCommandExecuted",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_death_test_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamDeathTest",
+      "type": "command",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_death_test"
     }
   ],
   "variable_elements": [
