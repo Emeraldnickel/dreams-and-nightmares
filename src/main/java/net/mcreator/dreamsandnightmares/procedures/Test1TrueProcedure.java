@@ -1,12 +1,14 @@
 package net.mcreator.dreamsandnightmares.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-
-import net.mcreator.dreamsandnightmares.network.DreamsAndNightmaresModVariables;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.TextComponent;
 
 public class Test1TrueProcedure {
-	public static void execute(LevelAccessor world) {
-		DreamsAndNightmaresModVariables.MapVariables.get(world).TestVarBool = true;
-		DreamsAndNightmaresModVariables.MapVariables.get(world).syncData(world);
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
+		if (entity instanceof Player _player && !_player.level.isClientSide())
+			_player.displayClientMessage(new TextComponent("THIS COMMAND HAS BEEN DEPRECATED DUE TO NON-FUNCTIONALITY."), (false));
 	}
 }

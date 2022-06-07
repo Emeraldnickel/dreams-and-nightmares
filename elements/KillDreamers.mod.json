@@ -3,7 +3,7 @@
   "_type": "command",
   "definition": {
     "commandName": "killdreamers",
-    "permissionLevel": "1",
+    "permissionLevel": "4",
     "onCommandExecuted": {
       "name": "Test1True"
     }

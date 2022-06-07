@@ -26,7 +26,7 @@ public class KillDreamersCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
 		event.getDispatcher()
-				.register(Commands.literal("killdreamers").requires(s -> s.hasPermission(1))
+				.register(Commands.literal("killdreamers").requires(s -> s.hasPermission(4))
 						.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(KillDreamersCommand::execute))
 						.executes(KillDreamersCommand::execute));
 	}
@@ -47,7 +47,7 @@ public class KillDreamersCommand {
 			index[0]++;
 		});
 
-		Test1TrueProcedure.execute(world);
+		Test1TrueProcedure.execute(entity);
 		return 0;
 	}
 }

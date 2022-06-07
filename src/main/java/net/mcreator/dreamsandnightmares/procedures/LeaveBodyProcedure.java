@@ -263,6 +263,16 @@ public class LeaveBodyProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 999999, 255));
 		if (PlayerBody instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 999999, 255));
+		if (entity instanceof Player _plr ? _plr.getAbilities().instabuild : false) {
+			if (PlayerBody instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 999999, 255));
+			if (PlayerBody instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 999999, 255));
+			if (PlayerBody instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 999999, 255));
+			if (PlayerBody instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.HEAL, 999999, 255));
+		}
 		PlayerBody.setAirSupply(entity.getAirSupply());
 		if (entity.isOnFire()) {
 			PlayerBody.setSecondsOnFire(3);
@@ -310,9 +320,6 @@ public class LeaveBodyProcedure {
 				}
 				if (entity instanceof LivingEntity _entity)
 					_entity.hurt(new DamageSource("dream").bypassArmor(), 9999);
-			}
-			if (DreamsAndNightmaresModVariables.MapVariables.get(world).TestVarBool == true) {
-				PlayerBody.hurt(DamageSource.GENERIC, 99999);
 			}
 		}
 		if (!PlayerBody.level.isClientSide())
