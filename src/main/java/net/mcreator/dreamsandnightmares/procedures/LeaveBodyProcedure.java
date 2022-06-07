@@ -58,6 +58,7 @@ public class LeaveBodyProcedure {
 		PlayerBody.setCustomName(new TextComponent((entity.getDisplayName().getString())));
 		if (PlayerBody instanceof LivingEntity _entity)
 			_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1);
+		PlayerBody.startRiding((entity.getVehicle()));
 		{
 			Entity _entity = PlayerBody;
 			if (_entity instanceof Player _player) {
@@ -124,9 +125,132 @@ public class LeaveBodyProcedure {
 							? _livEnt.getEffect(MobEffects.REGENERATION).getAmplifier()
 							: 0));
 		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.DIG_SLOWDOWN)
+							? _livEnt.getEffect(MobEffects.DIG_SLOWDOWN).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.DIG_SLOWDOWN)
+							? _livEnt.getEffect(MobEffects.DIG_SLOWDOWN).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.JUMP)
+							? _livEnt.getEffect(MobEffects.JUMP).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.JUMP)
+							? _livEnt.getEffect(MobEffects.JUMP).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.DIG_SPEED)
+							? _livEnt.getEffect(MobEffects.DIG_SPEED).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.DIG_SPEED)
+							? _livEnt.getEffect(MobEffects.DIG_SPEED).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.DAMAGE_RESISTANCE)
+							? _livEnt.getEffect(MobEffects.DAMAGE_RESISTANCE).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.DAMAGE_RESISTANCE)
+							? _livEnt.getEffect(MobEffects.DAMAGE_RESISTANCE).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.FIRE_RESISTANCE)
+							? _livEnt.getEffect(MobEffects.FIRE_RESISTANCE).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.FIRE_RESISTANCE)
+							? _livEnt.getEffect(MobEffects.FIRE_RESISTANCE).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.WATER_BREATHING)
+							? _livEnt.getEffect(MobEffects.WATER_BREATHING).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.WATER_BREATHING)
+							? _livEnt.getEffect(MobEffects.WATER_BREATHING).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.INVISIBILITY)
+							? _livEnt.getEffect(MobEffects.INVISIBILITY).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.INVISIBILITY)
+							? _livEnt.getEffect(MobEffects.INVISIBILITY).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.POISON,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.POISON)
+							? _livEnt.getEffect(MobEffects.POISON).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.POISON)
+							? _livEnt.getEffect(MobEffects.POISON).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.WITHER,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.WITHER)
+							? _livEnt.getEffect(MobEffects.WITHER).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.WITHER)
+							? _livEnt.getEffect(MobEffects.WITHER).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.HEALTH_BOOST)
+							? _livEnt.getEffect(MobEffects.HEALTH_BOOST).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.HEALTH_BOOST)
+							? _livEnt.getEffect(MobEffects.HEALTH_BOOST).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.ABSORPTION)
+							? _livEnt.getEffect(MobEffects.ABSORPTION).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.ABSORPTION)
+							? _livEnt.getEffect(MobEffects.ABSORPTION).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.GLOWING)
+							? _livEnt.getEffect(MobEffects.GLOWING).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.GLOWING)
+							? _livEnt.getEffect(MobEffects.GLOWING).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.LEVITATION)
+							? _livEnt.getEffect(MobEffects.LEVITATION).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.LEVITATION)
+							? _livEnt.getEffect(MobEffects.LEVITATION).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.SLOW_FALLING)
+							? _livEnt.getEffect(MobEffects.SLOW_FALLING).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.SLOW_FALLING)
+							? _livEnt.getEffect(MobEffects.SLOW_FALLING).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
+			_entity.addEffect(new MobEffectInstance(MobEffects.BAD_OMEN,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.BAD_OMEN)
+							? _livEnt.getEffect(MobEffects.BAD_OMEN).getDuration()
+							: 0,
+					entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.BAD_OMEN)
+							? _livEnt.getEffect(MobEffects.BAD_OMEN).getAmplifier()
+							: 0));
+		if (PlayerBody instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 999999, 255));
 		if (PlayerBody instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 999999, 255));
+		if (entity.isOnFire()) {
+			PlayerBody.setSecondsOnFire(3);
+		}
 		while ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY,
 				new ResourceLocation("dreams_and_nightmares:slumber_dimension")))
 				|| (entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY,
