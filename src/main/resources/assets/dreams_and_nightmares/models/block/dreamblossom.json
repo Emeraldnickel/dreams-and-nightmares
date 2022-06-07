@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dreams_and_nightmares:blocks/dream_flower",
+    "particle": "dreams_and_nightmares:blocks/dream_flower"
+  }
+}

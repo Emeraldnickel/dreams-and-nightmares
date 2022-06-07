@@ -1,0 +1,49 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:NightmareRealm"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Fear"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:DrowningDream"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:DreamDoorwayFrame"
+    },
+    "portalParticles": {
+      "value": "CRIT_MAGIC"
+    },
+    "portalLuminance": 1,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Nightmare Catalyst",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "fear_blob",
+    "portalTexture": "nightmare_material",
+    "enablePortal": true,
+    "portalMakeCondition": {
+      "name": "NightmareDimensionCanMakePortal"
+    }
+  }
+}

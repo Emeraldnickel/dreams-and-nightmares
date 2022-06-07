@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "dreams_and_nightmares:dream_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dreams_and_nightmares:dream_crystal_pickaxe",
+    "count": 1
+  }
+}

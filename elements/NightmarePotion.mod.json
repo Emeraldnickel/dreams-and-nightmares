@@ -1,0 +1,21 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Nightmares",
+    "splashName": "Splash Potion of Nightmares",
+    "lingeringName": "Lingering Potion of Nightmares",
+    "arrowName": "Arrow of Nightmares",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:BadDreaming"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

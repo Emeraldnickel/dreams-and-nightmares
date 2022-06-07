@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "dreams_and_nightmares:dreamstone",
+    "dreams_and_nightmares:dream_cobble",
+    "dreams_and_nightmares:fear",
+    "dreams_and_nightmares:dream_crystal_ore",
+    "dreams_and_nightmares:dream_crystal_block",
+    "dreams_and_nightmares:nightmare_gem_ore",
+    "dreams_and_nightmares:nightmare_gem_block",
+    "dreams_and_nightmares:resilience"
+  ]
+}

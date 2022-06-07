@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:CUSTOM:DreamPotion"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:Fear"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:NightmarePotion"
+    },
+    "name": "nightmare_potion_recipe",
+    "namespace": "mod"
+  }
+}

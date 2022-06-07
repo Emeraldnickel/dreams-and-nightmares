@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "EDE",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "D": {
+      "item": "dreams_and_nightmares:dream_crystal"
+    }
+  },
+  "result": {
+    "item": "dreams_and_nightmares:inner_light",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "dreams_and_nightmares:blocks/dream_planks",
+    "particle": "dreams_and_nightmares:blocks/dream_planks"
+  }
+}

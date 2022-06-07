@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dreams_and_nightmares:dream_planks"
+    }
+  ],
+  "result": {
+    "item": "dreams_and_nightmares:dream_button",
+    "count": 1
+  }
+}

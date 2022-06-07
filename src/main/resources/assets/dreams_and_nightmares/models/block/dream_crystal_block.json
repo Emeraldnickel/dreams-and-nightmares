@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dreams_and_nightmares:blocks/dreamcrystal_ore_block",
+    "particle": "dreams_and_nightmares:blocks/dreamcrystal_ore_block"
+  }
+}

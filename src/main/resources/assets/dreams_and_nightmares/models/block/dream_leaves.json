@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dreams_and_nightmares:blocks/dream_leaves",
+    "up": "dreams_and_nightmares:blocks/dream_leaves",
+    "north": "dreams_and_nightmares:blocks/dream_leaves",
+    "east": "dreams_and_nightmares:blocks/dream_leaves",
+    "south": "dreams_and_nightmares:blocks/dream_leaves",
+    "west": "dreams_and_nightmares:blocks/dream_leaves",
+    "particle": "dreams_and_nightmares:blocks/dream_leaves"
+  }
+}

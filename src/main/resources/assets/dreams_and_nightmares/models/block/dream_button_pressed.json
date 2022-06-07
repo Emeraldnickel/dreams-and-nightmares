@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "dreams_and_nightmares:blocks/dream_planks"
+  }
+}

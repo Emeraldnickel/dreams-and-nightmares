@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dreams_and_nightmares:block/dream_slab"
+    },
+    "type=top": {
+      "model": "dreams_and_nightmares:block/dream_slab_top"
+    },
+    "type=double": {
+      "model": "dreams_and_nightmares:block/dream_slab_full"
+    }
+  }
+}

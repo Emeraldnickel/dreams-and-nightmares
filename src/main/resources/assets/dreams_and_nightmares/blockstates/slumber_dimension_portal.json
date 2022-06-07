@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dreams_and_nightmares:block/slumber_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "dreams_and_nightmares:block/slumber_dimension_portal_ns"
+    }
+  }
+}

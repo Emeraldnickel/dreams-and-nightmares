@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dreams_and_nightmares:block/dream_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dreams_and_nightmares:block/dream_log"
+    },
+    "axis=z": {
+      "model": "dreams_and_nightmares:block/dream_log",
+      "x": 90
+    }
+  }
+}

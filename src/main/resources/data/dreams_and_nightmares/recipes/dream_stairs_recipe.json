@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dreams_and_nightmares:dream_planks"
+    }
+  },
+  "result": {
+    "item": "dreams_and_nightmares:dream_stairs",
+    "count": 4
+  }
+}

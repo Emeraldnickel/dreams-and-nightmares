@@ -1,0 +1,1097 @@
+{
+  "mod_elements": [
+    {
+      "name": "DreamWood",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_wood"
+    },
+    {
+      "name": "DreamLog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_log"
+    },
+    {
+      "name": "DreamPlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_planks"
+    },
+    {
+      "name": "DreamLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_leaves"
+    },
+    {
+      "name": "DreamStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_stairs"
+    },
+    {
+      "name": "DreamSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_slab"
+    },
+    {
+      "name": "DreamFence",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_fence"
+    },
+    {
+      "name": "DreamFenceGate",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_fence_gate"
+    },
+    {
+      "name": "DreamPressurePlate",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_pressure_plate"
+    },
+    {
+      "name": "DreamButton",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_button"
+    },
+    {
+      "name": "DreamItemsTag",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_items_tag"
+    },
+    {
+      "name": "DreamWoodRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_wood_recipe"
+    },
+    {
+      "name": "DreamPlanksRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_planks_recipe"
+    },
+    {
+      "name": "DreamStairsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_stairs_recipe"
+    },
+    {
+      "name": "DreamSlabRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_slab_recipe"
+    },
+    {
+      "name": "DreamFenceRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_fence_recipe"
+    },
+    {
+      "name": "DreamFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_fence_gate_recipe"
+    },
+    {
+      "name": "DreamPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_pressure_plate_recipe"
+    },
+    {
+      "name": "DreamButtonRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_button_recipe"
+    },
+    {
+      "name": "DreamStickRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_stick_recipe"
+    },
+    {
+      "name": "DreamCobble",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_cobble"
+    },
+    {
+      "name": "Dreamstone",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamstone"
+    },
+    {
+      "name": "DreamyDirt",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamy_dirt"
+    },
+    {
+      "name": "DreamyGrass",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamy_grass"
+    },
+    {
+      "name": "Dreamland",
+      "type": "biome",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamland"
+    },
+    {
+      "name": "Fear",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear"
+    },
+    {
+      "name": "DreamyWater",
+      "type": "fluid",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamy_water",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "DrowningDream",
+      "type": "fluid",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drowning_dream",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "NightmareRealm",
+      "type": "biome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_realm"
+    },
+    {
+      "name": "SlumberDimension",
+      "type": "dimension",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slumber_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Dream",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightmareDimension",
+      "type": "dimension",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "DreamCrystal",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal"
+    },
+    {
+      "name": "DreamCrystalOre",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_ore"
+    },
+    {
+      "name": "DreamCrystalBlock",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_block"
+    },
+    {
+      "name": "DreamCrystalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_ore_block_recipe"
+    },
+    {
+      "name": "DreamCrystalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_block_ore_recipe"
+    },
+    {
+      "name": "DreamCrystalOreSmelting",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_ore_smelting"
+    },
+    {
+      "name": "DreamCrystalPickaxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_pickaxe"
+    },
+    {
+      "name": "DreamCrystalAxe",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_axe"
+    },
+    {
+      "name": "DreamCrystalSword",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_sword"
+    },
+    {
+      "name": "DreamCrystalShovel",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_shovel"
+    },
+    {
+      "name": "DreamCrystalHoe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_hoe"
+    },
+    {
+      "name": "DreamCrystalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_pickaxe_recipe"
+    },
+    {
+      "name": "DreamCrystalAxeRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_axe_recipe"
+    },
+    {
+      "name": "DreamCrystalSwordRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_sword_recipe"
+    },
+    {
+      "name": "DreamCrystalShovelRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_shovel_recipe"
+    },
+    {
+      "name": "DreamCrystalHoeRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_hoe_recipe"
+    },
+    {
+      "name": "DreamCrystalArmor",
+      "type": "armor",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DreamCrystalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_armor_helmet_recipe"
+    },
+    {
+      "name": "DreamCrystalArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_armor_body_recipe"
+    },
+    {
+      "name": "DreamCrystalArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_armor_leggings_recipe"
+    },
+    {
+      "name": "DreamCrystalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_crystal_armor_boots_recipe"
+    },
+    {
+      "name": "NightmareGem",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem"
+    },
+    {
+      "name": "NightmareGemOre",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_ore"
+    },
+    {
+      "name": "NightmareGemBlock",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_block"
+    },
+    {
+      "name": "NightmareGemOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_ore_block_recipe"
+    },
+    {
+      "name": "NightmareGemBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_block_ore_recipe"
+    },
+    {
+      "name": "NightmareGemOreSmelting",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_ore_smelting"
+    },
+    {
+      "name": "NightmareGemPickaxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_pickaxe"
+    },
+    {
+      "name": "NightmareGemAxe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_axe"
+    },
+    {
+      "name": "NightmareGemSword",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_sword"
+    },
+    {
+      "name": "NightmareGemShovel",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_shovel"
+    },
+    {
+      "name": "NightmareGemHoe",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_hoe"
+    },
+    {
+      "name": "NightmareGemPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_pickaxe_recipe"
+    },
+    {
+      "name": "NightmareGemAxeRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_axe_recipe"
+    },
+    {
+      "name": "NightmareGemSwordRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_sword_recipe"
+    },
+    {
+      "name": "NightmareGemShovelRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_shovel_recipe"
+    },
+    {
+      "name": "NightmareGemHoeRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_hoe_recipe"
+    },
+    {
+      "name": "NightmareGemArmor",
+      "type": "armor",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "NightmareGemArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_armor_helmet_recipe"
+    },
+    {
+      "name": "NightmareGemArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_armor_body_recipe"
+    },
+    {
+      "name": "NightmareGemArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_armor_leggings_recipe"
+    },
+    {
+      "name": "NightmareGemArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_gem_armor_boots_recipe"
+    },
+    {
+      "name": "DreamDoorwayFrame",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_doorway_frame"
+    },
+    {
+      "name": "NightmareDimensionCanMakePortal",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_dimension_can_make_portal",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamFrameRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_frame_recipe"
+    },
+    {
+      "name": "CatalystRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyst_recipe"
+    },
+    {
+      "name": "Dreaming",
+      "type": "potioneffect",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreaming"
+    },
+    {
+      "name": "DreamingEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreaming_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamingEffectExpires",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreaming_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BadDreaming",
+      "type": "potioneffect",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_dreaming"
+    },
+    {
+      "name": "Dreamblossom",
+      "type": "plant",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamblossom"
+    },
+    {
+      "name": "DreamPotion",
+      "type": "potion",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_potion"
+    },
+    {
+      "name": "NightmarePotion",
+      "type": "potion",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_potion"
+    },
+    {
+      "name": "DreamPotionRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_potion_recipe"
+    },
+    {
+      "name": "NightmarePotionRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_potion_recipe"
+    },
+    {
+      "name": "KeyRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_recipe"
+    },
+    {
+      "name": "Resilience",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resilience"
+    },
+    {
+      "name": "FearFacing",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_facing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InnerLightMakeItemGlow",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inner_light_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InnerLight",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inner_light"
+    },
+    {
+      "name": "LightRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_recipe"
+    },
+    {
+      "name": "LeaveBody",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_body",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test1True",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_1_true",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KillDreamers",
+      "type": "command",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_dreamers"
+    },
+    {
+      "name": "Nightcap",
+      "type": "armor",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightcap",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "RealPlayerX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "RealPlayerY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "RealPlayerZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "DreamPlayerX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "DreamPlayerY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "DreamPlayerZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "TestVarBool",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.dreams_and_nightmares.nightmare_gem_hoe": "Nightmare Hoe",
+      "block.dreams_and_nightmares.nightmare_gem_block": "Block of Nightmare Gem",
+      "biome.dreams_and_nightmares.dreamland": "Dreamland",
+      "block.dreams_and_nightmares.dreamy_dirt": "Dreamy Dirt",
+      "item.minecraft.lingering_potion.effect.nightmare_potion": "Lingering Potion of Nightmares",
+      "block.dreams_and_nightmares.dream_button": "Dream Button",
+      "item.minecraft.tipped_arrow.effect.dream_potion": "Arrow of Dreaming",
+      "block.dreams_and_nightmares.dream_slab": "Dream Slab",
+      "item.dreams_and_nightmares.inner_light": "Inner Light",
+      "death.attack.dream": "%1$s died in the dream.",
+      "item.dreams_and_nightmares.dream_crystal_hoe": "Dreamy Hoe",
+      "item.dreams_and_nightmares.nightmare_gem_armor_helmet": "Nightmare Helmet",
+      "item.dreams_and_nightmares.nightmare_gem_armor_chestplate": "Nightmare Chestplate",
+      "block.dreams_and_nightmares.resilience": "Resilience",
+      "block.dreams_and_nightmares.dream_wood": "Dream Wood",
+      "item.minecraft.splash_potion.effect.dream_potion": "Splash Potion of Dreaming",
+      "effect.dreams_and_nightmares.bad_dreaming": "Asleep",
+      "biome.dreams_and_nightmares.nightmare_realm": "Nightmare Realm",
+      "block.dreams_and_nightmares.dream_stairs": "Dream Stairs",
+      "block.dreams_and_nightmares.dream_crystal_block": "Block of Dream Crystal",
+      "fluid.dreams_and_nightmares.dreamy_water": "Dreamy Water",
+      "item.dreams_and_nightmares.dream_crystal": "Dream Crystal",
+      "block.dreams_and_nightmares.dream_fence_gate": "Dream Fence Gate",
+      "block.dreams_and_nightmares.dream_pressure_plate": "Dream Pressure Plate",
+      "item.minecraft.potion.effect.dream_potion": "Potion of Dreaming",
+      "block.dreams_and_nightmares.dreamy_grass": "Dreamy Grass",
+      "item.dreams_and_nightmares.dream_crystal_armor_helmet": "Dreamy Helmet",
+      "block.dreams_and_nightmares.fear": "Fear",
+      "block.dreams_and_nightmares.dream_crystal_ore": "Dream Crystal Ore",
+      "item.dreams_and_nightmares.nightmare_gem": "Nightmare Gem",
+      "item.dreams_and_nightmares.slumber_dimension": "Dream Key",
+      "block.dreams_and_nightmares.nightmare_gem_ore": "Nightmare Gem Ore",
+      "block.dreams_and_nightmares.dream_leaves": "Dream Leaves",
+      "item.dreams_and_nightmares.nightcap_helmet": "Nightcap",
+      "item.dreams_and_nightmares.nightmare_gem_armor_boots": "Nightmare Boots",
+      "block.dreams_and_nightmares.dream_log": "Dream Log",
+      "item.dreams_and_nightmares.dream_crystal_shovel": "Dreamy Shovel",
+      "item.dreams_and_nightmares.drowning_dream_bucket": "Bucket of Nightmares",
+      "item.dreams_and_nightmares.dream_crystal_armor_chestplate": "Dreamy Chestplate",
+      "item.dreams_and_nightmares.nightcap_leggings": "DUMMIED OUT leggings",
+      "item.dreams_and_nightmares.nightcap_boots": "DUMMIED OUT boots",
+      "block.dreams_and_nightmares.dream_planks": "Dream Planks",
+      "item.dreams_and_nightmares.dream_crystal_sword": "Dreamy Sword",
+      "item.dreams_and_nightmares.dream_crystal_armor_leggings": "Dreamy Leggings",
+      "item.minecraft.tipped_arrow.effect.nightmare_potion": "Arrow of Nightmares",
+      "block.dreams_and_nightmares.dreamstone": "Dreamstone",
+      "item.minecraft.splash_potion.effect.nightmare_potion": "Splash Potion of Nightmares",
+      "item.dreams_and_nightmares.nightmare_gem_armor_leggings": "Nightmare Leggings",
+      "item.minecraft.lingering_potion.effect.dream_potion": "Lingering Potion of Dreaming",
+      "item.dreams_and_nightmares.nightmare_gem_sword": "Nightmare Sword",
+      "item.dreams_and_nightmares.nightcap_chestplate": "DUMMIED OUT chestplate",
+      "item.dreams_and_nightmares.nightmare_gem_shovel": "Nightmare Shovel",
+      "item.dreams_and_nightmares.dream_crystal_pickaxe": "Dreamy Pickaxe",
+      "item.dreams_and_nightmares.nightmare_gem_pickaxe": "Nightmare Pickaxe",
+      "block.dreams_and_nightmares.dreamy_water": "Dreamy Water",
+      "item.dreams_and_nightmares.dream_crystal_axe": "Dreamy Axe",
+      "block.dreams_and_nightmares.drowning_dream": "Drowning Dream",
+      "item.minecraft.potion.effect.nightmare_potion": "Potion of Nightmares",
+      "item.dreams_and_nightmares.nightmare_dimension": "Nightmare Catalyst",
+      "block.dreams_and_nightmares.dreamblossom": "Dreamblossom",
+      "block.dreams_and_nightmares.dream_cobble": "Cobbled Dreamstone",
+      "item.dreams_and_nightmares.dreamy_water_bucket": "Dreamy Water Bucket",
+      "fluid.dreams_and_nightmares.drowning_dream": "Drowning Dream",
+      "block.dreams_and_nightmares.dream_fence": "Dream Fence",
+      "item.dreams_and_nightmares.dream_crystal_armor_boots": "Dreamy Boots",
+      "item.dreams_and_nightmares.nightmare_gem_axe": "Nightmare Axe",
+      "block.dreams_and_nightmares.dream_doorway_frame": "Dream Doorway Frame",
+      "effect.dreams_and_nightmares.dreaming": "Sleeping"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dreams_and_nightmares",
+    "modName": "Dreams and Nightmares",
+    "version": "0.2.0",
+    "author": "Emeraldnickel",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "asleepgood",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.dreamsandnightmares",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

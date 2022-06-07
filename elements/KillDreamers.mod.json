@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "command",
+  "definition": {
+    "commandName": "killdreamers",
+    "permissionLevel": "3",
+    "onCommandExecuted": {
+      "name": "Test1True"
+    }
+  }
+}

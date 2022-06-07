@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "dreams_and_nightmares:dream_crystal"
+    }
+  },
+  "result": {
+    "item": "dreams_and_nightmares:dream_crystal_armor_boots",
+    "count": 1
+  }
+}

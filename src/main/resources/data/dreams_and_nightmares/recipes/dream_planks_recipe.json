@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dream_log"
+    }
+  ],
+  "result": {
+    "item": "dreams_and_nightmares:dream_planks",
+    "count": 4
+  }
+}

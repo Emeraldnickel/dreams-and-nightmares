@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dreams_and_nightmares:blocks/nightmare_material",
+    "up": "dreams_and_nightmares:blocks/nightmare_material",
+    "north": "dreams_and_nightmares:blocks/nightmare_material",
+    "east": "dreams_and_nightmares:blocks/nightmare_material",
+    "south": "dreams_and_nightmares:blocks/nightmare_material",
+    "west": "dreams_and_nightmares:blocks/nightmare_material",
+    "particle": "dreams_and_nightmares:blocks/nightmare_material"
+  }
+}

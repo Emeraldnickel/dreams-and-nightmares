@@ -1,0 +1,21 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Dreaming",
+    "splashName": "Splash Potion of Dreaming",
+    "lingeringName": "Lingering Potion of Dreaming",
+    "arrowName": "Arrow of Dreaming",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Dreaming"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

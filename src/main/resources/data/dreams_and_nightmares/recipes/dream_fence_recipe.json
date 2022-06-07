@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DSD",
+    "DSD"
+  ],
+  "key": {
+    "D": {
+      "item": "dreams_and_nightmares:dream_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dreams_and_nightmares:dream_fence",
+    "count": 3
+  }
+}

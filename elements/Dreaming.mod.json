@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sleeping",
+    "icon": "asleepgood.png",
+    "color": {
+      "value": -6697729,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "DreamingEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "DreamingEffectExpires"
+    }
+  }
+}

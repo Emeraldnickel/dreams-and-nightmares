@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "dreams_and_nightmares:dream_log"
+    }
+  },
+  "result": {
+    "item": "dreams_and_nightmares:dream_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "N": {
+      "item": "dreams_and_nightmares:nightmare_gem"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dreams_and_nightmares:nightmare_gem_pickaxe",
+    "count": 1
+  }
+}
