@@ -16,6 +16,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -115,6 +116,20 @@ public class LeaveBodyProcedure {
 							(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY));
 				}
 			}
+		}
+		if (PlayerBody instanceof LivingEntity _entity) {
+			ItemStack _setstack = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+			_setstack.setCount(((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).getCount());
+			_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
+			if (_entity instanceof Player _player)
+				_player.getInventory().setChanged();
+		}
+		if (PlayerBody instanceof LivingEntity _entity) {
+			ItemStack _setstack = (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY);
+			_setstack.setCount(((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).getCount());
+			_entity.setItemInHand(InteractionHand.OFF_HAND, _setstack);
+			if (_entity instanceof Player _player)
+				_player.getInventory().setChanged();
 		}
 		if (PlayerBody instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION,
@@ -248,6 +263,7 @@ public class LeaveBodyProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 999999, 255));
 		if (PlayerBody instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 999999, 255));
+		PlayerBody.setAirSupply(entity.getAirSupply());
 		if (entity.isOnFire()) {
 			PlayerBody.setSecondsOnFire(3);
 		}
