@@ -7,6 +7,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.player.PlayerSleepInBedEvent;
 
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -49,7 +50,9 @@ public class DreamProcedure {
 		if (entity == null)
 			return;
 		Entity playerBody = null;
-		if (!world.isClientSide()) {
+		if (entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
+				? _plr.getAdvancements().getOrStartProgress(_plr.server.getAdvancements().getAdvancement(new ResourceLocation("none"))).isDone()
+				: false) {
 			if ((world instanceof Level _lvl ? _lvl.dimension() : Level.OVERWORLD) == (Level.OVERWORLD)) {
 				{
 					double _setval = x;
@@ -114,6 +117,23 @@ public class DreamProcedure {
 									_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance));
 								_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 							}
+						}
+						{
+							Entity _ent = entity;
+							_ent.teleportTo(
+									((entity.getCapability(DreamsAndNightmaresModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+											.orElse(new DreamsAndNightmaresModVariables.PlayerVariables())).DreamPlayerX),
+									(world.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (int) x, (int) z)),
+									((entity.getCapability(DreamsAndNightmaresModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+											.orElse(new DreamsAndNightmaresModVariables.PlayerVariables())).DreamPlayerZ));
+							if (_ent instanceof ServerPlayer _serverPlayer)
+								_serverPlayer.connection.teleport(
+										((entity.getCapability(DreamsAndNightmaresModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+												.orElse(new DreamsAndNightmaresModVariables.PlayerVariables())).DreamPlayerX),
+										(world.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (int) x, (int) z)),
+										((entity.getCapability(DreamsAndNightmaresModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+												.orElse(new DreamsAndNightmaresModVariables.PlayerVariables())).DreamPlayerZ),
+										_ent.getYRot(), _ent.getXRot());
 						}
 					} else {
 						if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
@@ -188,7 +208,7 @@ public class DreamProcedure {
 						? Minecraft.getInstance().getConnection().getOnlinePlayers().size()
 						: ServerLifecycleHooks.getCurrentServer().getPlayerCount()) == world.players().size() && world.dayTime() > 12000) {
 					if (world instanceof ServerLevel _level)
-						_level.setDayTime(1);
+						_level.setDayTime(0);
 				}
 				if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
 					ResourceKey<Level> destinationType = Level.OVERWORLD;
@@ -279,13 +299,16 @@ public class DreamProcedure {
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, new BlockPos(x, y, z),
-								ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.ghast.scream")), SoundSource.NEUTRAL, 1, 1);
+								ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.ghast.scream")), SoundSource.HOSTILE, 1, 1);
 					} else {
 						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.ghast.scream")),
-								SoundSource.NEUTRAL, 1, 1, false);
+								SoundSource.HOSTILE, 1, 1, false);
 					}
 				}
 			}
+		} else {
+			if (entity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, 2));
 		}
 	}
 }

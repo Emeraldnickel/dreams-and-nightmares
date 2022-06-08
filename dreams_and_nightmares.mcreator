@@ -915,30 +915,6 @@
       }
     },
     {
-      "name": "Test1True",
-      "type": "procedure",
-      "sortid": 93,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_1_true",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "KillDreamers",
-      "type": "command",
-      "sortid": 93,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kill_dreamers"
-    },
-    {
       "name": "Nightcap",
       "type": "armor",
       "sortid": 94,
@@ -975,6 +951,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_death_test"
+    },
+    {
+      "name": "KOCrystal",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ko_crystal"
+    },
+    {
+      "name": "KnockoutSword",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockout_sword"
+    },
+    {
+      "name": "KOTrade",
+      "type": "villagertrade",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ko_trade"
     }
   ],
   "variable_elements": [
@@ -1013,12 +1013,6 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
-    },
-    {
-      "name": "TestVarBool",
-      "type": "logic",
-      "scope": "map",
-      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -1060,6 +1054,7 @@
       "item.dreams_and_nightmares.nightcap_helmet": "Nightcap",
       "item.dreams_and_nightmares.nightmare_gem_armor_boots": "Nightmare Boots",
       "block.dreams_and_nightmares.dream_log": "Dream Log",
+      "item.dreams_and_nightmares.knockout_sword": "Knockout Sword",
       "item.dreams_and_nightmares.dream_crystal_shovel": "Dreamy Shovel",
       "item.dreams_and_nightmares.drowning_dream_bucket": "Bucket of Nightmares",
       "item.dreams_and_nightmares.dream_crystal_armor_chestplate": "Dreamy Chestplate",
@@ -1084,6 +1079,7 @@
       "item.minecraft.potion.effect.nightmare_potion": "Potion of Nightmares",
       "item.dreams_and_nightmares.nightmare_dimension": "Nightmare Catalyst",
       "block.dreams_and_nightmares.dreamblossom": "Dreamblossom",
+      "item.dreams_and_nightmares.ko_crystal": "K.O. Crystal",
       "block.dreams_and_nightmares.dream_cobble": "Cobbled Dreamstone",
       "item.dreams_and_nightmares.dreamy_water_bucket": "Dreamy Water Bucket",
       "fluid.dreams_and_nightmares.drowning_dream": "Drowning Dream",

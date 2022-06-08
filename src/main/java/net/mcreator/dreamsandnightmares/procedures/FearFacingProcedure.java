@@ -40,11 +40,10 @@ public class FearFacingProcedure {
 				for (int index1 = 0; index1 < (int) (10); index1++) {
 					sz = -5;
 					for (int index2 = 0; index2 < (int) (10); index2++) {
-						if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == DreamsAndNightmaresModBlocks.NIGHTMARE_GEM_BLOCK
-								.get()) {
+						if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == DreamsAndNightmaresModBlocks.FEAR.get()) {
 							found = true;
 							{
-								BlockPos _bp = new BlockPos(x, y, z);
+								BlockPos _bp = new BlockPos(x + sx, y + sy, z + sz);
 								BlockState _bs = DreamsAndNightmaresModBlocks.RESILIENCE.get().defaultBlockState();
 								BlockState _bso = world.getBlockState(_bp);
 								for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -57,6 +56,7 @@ public class FearFacingProcedure {
 								}
 								world.setBlock(_bp, _bs, 3);
 							}
+							count = count + 1;
 						}
 						sz = sz + 1;
 					}
@@ -66,7 +66,7 @@ public class FearFacingProcedure {
 			}
 			if (found == true) {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent(("Successfully replaced " + count + " blocks!")), (false));
+					_player.displayClientMessage(new TextComponent(("Successfully replaced " + Math.round(count) + " blocks!")), (false));
 			} else {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
 					_player.displayClientMessage(new TextComponent("But you had no fears to face."), (false));

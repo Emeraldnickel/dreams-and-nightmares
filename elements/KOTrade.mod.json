@@ -1,0 +1,51 @@
+{
+  "_fv": 28,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "WEAPONSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:KOCrystal"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice2": 8,
+            "offer": {
+              "value": "CUSTOM:KnockoutSword"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 5,
+            "xp": 20,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:DreamCrystal"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "CUSTOM:NightmareGem"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:KOCrystal"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

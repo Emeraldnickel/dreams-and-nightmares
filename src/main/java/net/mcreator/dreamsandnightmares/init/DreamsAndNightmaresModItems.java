@@ -23,6 +23,8 @@ import net.mcreator.dreamsandnightmares.item.NightmareGemAxeItem;
 import net.mcreator.dreamsandnightmares.item.NightmareGemArmorItem;
 import net.mcreator.dreamsandnightmares.item.NightmareDimensionItem;
 import net.mcreator.dreamsandnightmares.item.NightcapItem;
+import net.mcreator.dreamsandnightmares.item.KnockoutSwordItem;
+import net.mcreator.dreamsandnightmares.item.KOCrystalItem;
 import net.mcreator.dreamsandnightmares.item.InnerLightItem;
 import net.mcreator.dreamsandnightmares.item.DrowningDreamItem;
 import net.mcreator.dreamsandnightmares.item.DreamyWaterItem;
@@ -102,6 +104,8 @@ public class DreamsAndNightmaresModItems {
 	public static final RegistryObject<Item> NIGHTCAP_CHESTPLATE = REGISTRY.register("nightcap_chestplate", () -> new NightcapItem.Chestplate());
 	public static final RegistryObject<Item> NIGHTCAP_LEGGINGS = REGISTRY.register("nightcap_leggings", () -> new NightcapItem.Leggings());
 	public static final RegistryObject<Item> NIGHTCAP_BOOTS = REGISTRY.register("nightcap_boots", () -> new NightcapItem.Boots());
+	public static final RegistryObject<Item> KO_CRYSTAL = REGISTRY.register("ko_crystal", () -> new KOCrystalItem());
+	public static final RegistryObject<Item> KNOCKOUT_SWORD = REGISTRY.register("knockout_sword", () -> new KnockoutSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

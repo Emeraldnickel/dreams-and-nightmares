@@ -1,0 +1,34 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ko_sword",
+    "customModelName": "Normal",
+    "name": "Knockout Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 8,
+    "efficiency": 14.0,
+    "attackSpeed": 1.0,
+    "enchantability": 56,
+    "damageVsEntity": 24.0,
+    "usageCount": 1741,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:KOCrystal"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "onEntityHitWith": {
+      "name": "Dream"
+    }
+  }
+}

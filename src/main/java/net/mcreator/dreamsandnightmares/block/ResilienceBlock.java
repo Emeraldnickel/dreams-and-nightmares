@@ -25,7 +25,8 @@ import java.util.Collections;
 
 public class ResilienceBlock extends Block {
 	public ResilienceBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.WOOL).strength(1f, 3f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.WOOL).strength(1f, 3f).requiresCorrectToolForDrops().noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -50,7 +51,7 @@ public class ResilienceBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DreamsAndNightmaresModBlocks.RESILIENCE.get(), renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DreamsAndNightmaresModBlocks.RESILIENCE.get(), renderType -> renderType == RenderType.translucent());
 	}
 
 }
